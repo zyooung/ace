@@ -39,13 +39,13 @@ en: &DEFAULT_EN
 
   about:
     title: "About Us"
-    text: "Our Story"
-    body: "Our humble beginning started with three ANU postgraduates who together shared the vision to help international students succeed in challenging college courses. We are now one of the leading college tuition providers in Canberra. We thrived the pandamic with pioneered online teaching. We believe education shapes human life and our mission is to make accessible education available to everyone at every level whenever and wherever one seeks self-advancement."
+    text: "Our mission"
+    body: "Our business was started by three ANU postgraduates who together shared the vision to help international students succeed in challenging college courses. We are now one of the leading college tuition providers in Canberra. We thrived the pandamic with pioneered online teaching. We believe education shapes human life and our mission is to make accessible education available to everyone at every level whenever and wherever one seeks self-advancement."
     section: about
 
   timeline:
     title: "Timeline"
-    text: "Our Story"
+    text: "Our story"
     section: timeline
     # left is the default
     #start_align: "left"
@@ -73,13 +73,12 @@ en: &DEFAULT_EN
   
   team:
     title: "Address"
-    text: "Meet our wonderful team"
-    subtext: Meet us at 1 University Ave, Canberra, ACT 2601. Offline courses currently unavailale.
+    text: "Our business info and address"
+    subtext: "ACE Career Pty Ltd <br > ABN: 46 654 656 649 <br > Level 2, 1 University Ave, Canberra, ACT 2601 <br > Offline courses currently unavailale"
     section: team
 
   contact:
     title: "Contact Us"
-    text: "Reach us via info@acecareers.com.au"
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
@@ -97,9 +96,9 @@ en: &DEFAULT_EN
     social:
       - url: mailto:acecareereduc@gmail.com
         icon: "fas fa-envelope"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin"
-      - url: weixin://ak-education
+      - url: tel:+610421481252
+        icon: "fas fa-phone"
+      - url: weixin://contacts/add/Dracarys002
         icon: "fab fa-weixin"
 en-US:
   <<: *DEFAULT_EN
